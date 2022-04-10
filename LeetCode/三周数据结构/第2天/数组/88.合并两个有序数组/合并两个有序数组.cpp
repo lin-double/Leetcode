@@ -2,7 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-//ͨ��
+//Í¨¹ý
 class Solution1 {
 public:
 	void merge(vector<int>& nums1, int m, vector<int>& nums2, int n)
@@ -29,5 +29,6 @@ int main()
 	{
 		cout << v1[i] << " " ;
 	}
+	cout << "heiehi" << endl;
 	return 0;
 }
