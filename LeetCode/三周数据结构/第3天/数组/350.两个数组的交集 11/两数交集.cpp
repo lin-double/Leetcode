@@ -4,8 +4,7 @@
 #include<unordered_map>
 #include<algorithm>
 using namespace std;
-
-//349.Á½¸öÊı×éµÄ½»¼¯
+//349.ä¸¤ä¸ªæ•°ç»„çš„äº¤é›†
 class Solution1 {
 public:
 	vector<int>intersect(vector<int> &nums1, vector<int> &nums2) {
@@ -20,7 +19,7 @@ public:
 		return { result.begin(), result.end() };
 	}
 };
-//¹şÏ£±í
+//å“ˆå¸Œè¡¨
 class Solution2
 {
 public:
@@ -33,7 +32,7 @@ public:
 		unordered_map<int, int> m;
 		for (int num : nums1)
 		{
-			//numÊÇkey,m[key]ÊÇkey¶ÔÓ¦µÄÖµ£¬ÕÒµ½Ò»¸ö¼Ó1
+			//numæ˜¯key,m[key]æ˜¯keyå¯¹åº”çš„å€¼ï¼Œæ‰¾åˆ°ä¸€ä¸ªåŠ 1
 			++m[num];
 		}
 		vector<int> vec;
@@ -52,7 +51,7 @@ public:
 		return vec;
 	}
 };
-//ÅÅĞò¡¢Ë«Ö¸Õë
+//æ’åºã€åŒæŒ‡é’ˆ
 class Solution3
 {
 	vector<int> intersect(vector<int>&nums1, vector<int>&nums2)
