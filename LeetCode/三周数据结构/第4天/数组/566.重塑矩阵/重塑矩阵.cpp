@@ -5,6 +5,7 @@ using namespace std;
 class Solution
 {
 public:
+
 	vector<vector<int>>matrixReshape(vector<vector<int>>& mat, int r, int c)
 	{
 		vector<vector<int>> vec(r, vector<int>(c));
